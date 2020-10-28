@@ -6,9 +6,9 @@
 	   4. Miantoko Gundho Putro Nugroho	182410102049
 
 #Deskripsi Aplikasi
-Apliksai ini di gunakan untuk menghitung penggunaan energi listrik
+Aplikasi ini di gunakan untuk menghitung penggunaan energi listrik
 berdasarkan besar daya listrik rumah dan perangkat-perangkat yang
-diginakan.
+digunakan.
 
 #Progress
 (28/08/2020) Membuat Tampilan halaman kalkulator
