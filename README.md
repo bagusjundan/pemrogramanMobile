@@ -9,11 +9,10 @@ Aplikasi ini di gunakan untuk menghitung penggunaan energi listrik
 berdasarkan besar daya listrik rumah dan perangkat-perangkat yang
 digunakan.
 
-## Upload Tugas 1 (14/10/2020)💻
-Progress : Membuat Appbar, Menghilangkan Banner Debug, Scaffold <br>
-<br>
+## Progress
+#### Upload Tugas 1 (14/10/2020)💻
+Progress : Membuat Appbar, Menghilangkan Banner Debug, Scaffold 
 <img src="https://github.com/bagusjundan/pemrogramanMobile/blob/main/tugas%20pertama/screenshot.jpeg">
-## Upload Tugas 2 (28/10/2020)💻
-Progress : Tampilan Halaman Kalkulator<br>
-<br>
+#### Upload Tugas 2 (28/10/2020)💻
+Progress : Tampilan Halaman Kalkulator
 <img src="https://github.com/bagusjundan/pemrogramanMobile/blob/main/tugas%20kedua/screenshot%20halaman%20kalkulator.jpeg">
