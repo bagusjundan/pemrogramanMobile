@@ -18,5 +18,5 @@ Progress : Tampilan Halaman Kalkulator<br>
 <img src="https://github.com/bagusjundan/pemrogramanMobile/blob/main/tugas%20kedua/screenshot%20halaman%20kalkulator.jpeg">
 #### Upload Tugas 3 (12/11/2020)💻
 Progress : Tampilan Halaman Login Kalkulator beserta implementasi routing dan custom widget pada aplikasi<br>
-<img src="https://github.com/bagusjundan/pemrogramanMobile/blob/main/usage/Screenshot_Login.jpeg">
-<img src="https://github.com/bagusjundan/pemrogramanMobile/blob/main/usage/Screenshot_Kalkulator.jpeg">
+<img src="https://github.com/bagusjundan/pemrogramanMobile/blob/main/usage/Screenshot_Login.jpg">
+<img src="https://github.com/bagusjundan/pemrogramanMobile/blob/main/usage/Screenshot_Kalkulator.jpg">
