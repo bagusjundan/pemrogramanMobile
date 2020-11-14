@@ -1,6 +1,0 @@
-Kelompok 	 : A
-Kelas	 	 : Pemrograman Mobile B
-Anggota Kelompok : - Febria Erliana Hadi   (182410102003)
-		   - Ashoh Bagus Jundan M. (182410102034)
-		   - Miantoko Gundho P.N.  (182410102049)
-		   - Sylvia Rizky Anissa N.(182410102052)
