@@ -12,10 +12,10 @@ digunakan.
 ## Progress
 #### Upload Tugas 1 (14/10/2020)💻
 Progress : Membuat Appbar, Menghilangkan Banner Debug, Scaffold<br>
-<img src="https://github.com/bagusjundan/pemrogramanMobile/blob/main/tugas%20pertama/screenshot.jpeg">
+
 #### Upload Tugas 2 (28/10/2020)💻
 Progress : Tampilan Halaman Kalkulator<br>
-<img src="https://github.com/bagusjundan/pemrogramanMobile/blob/main/tugas%20kedua/screenshot%20halaman%20kalkulator.jpeg">
+
 #### Upload Tugas 3 (12/11/2020)💻
 Progress : Tampilan Halaman Login Kalkulator beserta implementasi routing dan custom widget pada aplikasi<br>
 <img src="https://github.com/bagusjundan/pemrogramanMobile/blob/main/usage/Screenshot_Login.jpg">
