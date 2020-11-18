@@ -12,9 +12,18 @@ class CardList extends StatelessWidget {
     return Card(
       child: Column(
         children: [
-          Text('Nama Perangkat: ' + namaPerangkat),
-          Text('Tegangan: ' + tegangan + ' Watt'),
-          Text('Lama Penggunaan: ' + lamaPenggunaan + ' Jam'),
+          Text(
+            'Nama Perangkat: ' + namaPerangkat,
+            style: TextStyle(color: Color.fromRGBO(131, 127, 127, 1)),
+          ),
+          Text(
+            'Tegangan: ' + tegangan + ' Watt',
+            style: TextStyle(color: Color.fromRGBO(131, 127, 127, 1)),
+          ),
+          Text(
+            'Lama Penggunaan: ' + lamaPenggunaan + ' Jam',
+            style: TextStyle(color: Color.fromRGBO(131, 127, 127, 1)),
+          ),
           Divider(
             height: 5,
             thickness: 1,
@@ -23,8 +32,11 @@ class CardList extends StatelessWidget {
           ),
           FlatButton.icon(
             onPressed: () {},
-            label: Text('Hapus'),
-            icon: Icon(Icons.delete),
+            label: Text(
+              'Hapus',
+              style: TextStyle(color: Color.fromRGBO(131, 127, 127, 1)),
+            ),
+            icon: Icon(Icons.delete, color: Color.fromRGBO(131, 127, 127, 1)),
           ),
         ],
       ),

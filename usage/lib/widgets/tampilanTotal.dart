@@ -13,14 +13,11 @@ class TotalBox extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Container(
-          width: 100,
-          height: 100,
+          width: 90,
+          height: 90,
           decoration: BoxDecoration(
-            color: Colors.white,
-            border: Border.all(color: Colors.black),
-            borderRadius: BorderRadius.only(
-                bottomLeft: Radius.circular(20.0),
-                topLeft: Radius.circular(20.0)),
+            color: Colors.grey[100],
+            borderRadius: BorderRadius.circular(10.0),
           ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -29,22 +26,32 @@ class TotalBox extends StatelessWidget {
                 '''Total
                 Perangkat''',
                 textAlign: TextAlign.center,
-                style:
-                    TextStyle(fontSize: 14.0, height: 0.5, color: Colors.green),
+                style: TextStyle(
+                    fontSize: 14.0,
+                    height: 0.5,
+                    color: Color.fromRGBO(127, 205, 145, 1)),
               ),
               Text(
                 totalPerangkat,
                 textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 25.0, height: 2, color: Colors.blue),
+                style: TextStyle(
+                    fontSize: 25.0,
+                    height: 2,
+                    color: Color.fromRGBO(131, 127, 127, 1)),
               ),
             ],
           ),
         ),
+        SizedBox(
+          width: 15,
+        ),
         Container(
-          width: 100,
-          height: 100,
+          width: 90,
+          height: 90,
           decoration: BoxDecoration(
-              color: Colors.white, border: Border.all(color: Colors.black)),
+            color: Colors.grey[100],
+            borderRadius: BorderRadius.circular(10.0),
+          ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -52,26 +59,31 @@ class TotalBox extends StatelessWidget {
                 '''Total
                 Tegangan''',
                 textAlign: TextAlign.center,
-                style:
-                    TextStyle(fontSize: 14.0, height: 0.5, color: Colors.green),
+                style: TextStyle(
+                    fontSize: 14.0,
+                    height: 0.5,
+                    color: Color.fromRGBO(127, 205, 145, 1)),
               ),
               Text(
                 totalTegangan + ' W',
                 textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 25.0, height: 2, color: Colors.blue),
+                style: TextStyle(
+                    fontSize: 25.0,
+                    height: 2,
+                    color: Color.fromRGBO(131, 127, 127, 1)),
               ),
             ],
           ),
         ),
+        SizedBox(
+          width: 15,
+        ),
         Container(
-          width: 100,
-          height: 100,
+          width: 90,
+          height: 90,
           decoration: BoxDecoration(
-            color: Colors.white,
-            border: Border.all(color: Colors.black),
-            borderRadius: BorderRadius.only(
-                bottomRight: Radius.circular(20.0),
-                topRight: Radius.circular(20.0)),
+            color: Colors.grey[100],
+            borderRadius: BorderRadius.circular(10.0),
           ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -80,13 +92,18 @@ class TotalBox extends StatelessWidget {
                 '''Total
                 Penggunaan''',
                 textAlign: TextAlign.center,
-                style:
-                    TextStyle(fontSize: 14.0, height: 0.5, color: Colors.green),
+                style: TextStyle(
+                    fontSize: 14.0,
+                    height: 0.5,
+                    color: Color.fromRGBO(127, 205, 145, 1)),
               ),
               Text(
                 totalPenggunaan + ' Jam',
                 textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 25.0, height: 2, color: Colors.blue),
+                style: TextStyle(
+                    fontSize: 25.0,
+                    height: 2,
+                    color: Color.fromRGBO(131, 127, 127, 1)),
               ),
             ],
           ),
