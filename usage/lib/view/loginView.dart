@@ -9,7 +9,7 @@ class Login extends StatefulWidget {
 }
 
 class _LoginState extends State<Login> {
-  var username = 'pegguna1';
+  var username = 'pengguna1';
   var password = '123';
   var inputUsename = '';
   var inputPassword = '';
