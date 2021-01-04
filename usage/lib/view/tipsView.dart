@@ -27,7 +27,7 @@ class Tips extends StatelessWidget {
           ),
           IconButton(
             icon: Icon(
-              Icons.logout,
+              Icons.label,
               color: Colors.grey[200],
             ),
             onPressed: () {
