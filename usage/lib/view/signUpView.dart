@@ -7,6 +7,7 @@ class SignUp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false, // set it to false
       backgroundColor: Colors.grey[200],
       body: Padding(
         padding: EdgeInsets.fromLTRB(50, 120, 50, 90),
