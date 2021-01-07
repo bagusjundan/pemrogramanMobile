@@ -1,6 +1,8 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:usage/view/imageView.dart';
 import 'package:usage/view/startView.dart';
+import 'package:usage/view/statisticsView.dart';
 
 class Profile extends StatelessWidget {
   @override
@@ -80,6 +82,28 @@ class Profile extends StatelessWidget {
               height: 100,
             ),
             Container(
+              child: Align(
+                alignment: Alignment.bottomRight,
+                child: ButtonTheme(
+                  height: 60.0,
+                  minWidth: 130.0,
+                  child: FlatButton(
+                      child: Text(
+                        'LIHAT FOTO',
+                        style: TextStyle(fontSize: 18, color: Colors.grey[200]),
+                      ),
+                      onPressed: () {
+                        Navigator.pushReplacement(context,
+                            MaterialPageRoute(builder: (context) => Images()));
+                      },
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(30.0)),
+                      color: Color.fromRGBO(127, 205, 145, 1)),
+                ),
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.fromLTRB(0,10,0,0),
               child: Align(
                 alignment: Alignment.bottomRight,
                 child: ButtonTheme(
