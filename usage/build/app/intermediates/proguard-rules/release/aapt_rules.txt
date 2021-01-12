@@ -1,8 +1,0 @@
-# Referenced at F:\Gundho\Github\pemrogramanMobile\usage\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:20
--keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at F:\Gundho\Github\pemrogramanMobile\usage\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:25
--keep class com.example.usage.MainActivity { <init>(); }
-# Referenced at F:\Gundho\Github\pemrogramanMobile\usage\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:20
--keep class io.flutter.app.FlutterApplication { <init>(); }
-# Referenced at F:\Gundho\Github\pemrogramanMobile\usage\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:67
--keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(); }
