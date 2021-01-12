@@ -44,7 +44,7 @@ class _StatisticsState extends State {
     return new Scaffold(
       appBar: AppBar(
         title: Text(
-          'Statistic',
+          'Statistik',
           style: TextStyle(color: Colors.grey[200]),
         ),
         backgroundColor: Color.fromRGBO(127, 205, 145, 1),
@@ -63,7 +63,7 @@ class _StatisticsState extends State {
           ),
           IconButton(
             icon: Icon(
-              Icons.label,
+              Icons.logout,
               color: Colors.grey[200],
             ),
             onPressed: () {

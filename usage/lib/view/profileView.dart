@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:usage/view/imageView.dart';
-import 'package:usage/view/startView.dart';
+import 'package:usage/_provider/app.dart';
 import 'package:usage/view/statisticsView.dart';
 
 class Profile extends StatelessWidget {
@@ -38,15 +38,15 @@ class Profile extends StatelessWidget {
             Row(
               children: [
                 Text(
-                  'USERNAME:',
+                  'USERNAME :',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       fontSize: 15,
-                      color: Color.fromRGBO(131, 127, 127, 1),
+                      color: Color.fromRGBO(159, 162, 161, 1),
                       fontWeight: FontWeight.bold),
                 ),
                 Text(
-                  'pengguna1',
+                  '  Pengguna1',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       fontSize: 15,
@@ -61,15 +61,15 @@ class Profile extends StatelessWidget {
             Row(
               children: [
                 Text(
-                  'PASSWORD:',
+                  'PASSWORD :',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       fontSize: 15,
-                      color: Color.fromRGBO(131, 127, 127, 1),
+                      color: Color.fromRGBO(159, 162, 161, 1),
                       fontWeight: FontWeight.bold),
                 ),
                 Text(
-                  '123',
+                  '  123',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       fontSize: 15,
@@ -111,16 +111,16 @@ class Profile extends StatelessWidget {
                   minWidth: 130.0,
                   child: FlatButton(
                       child: Text(
-                        'LOGOUT',
+                        'RIWAYAT',
                         style: TextStyle(fontSize: 18, color: Colors.grey[200]),
                       ),
                       onPressed: () {
                         Navigator.pushReplacement(context,
-                            MaterialPageRoute(builder: (context) => Start()));
+                            MaterialPageRoute(builder: (context) => App()));
                       },
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(30.0)),
-                      color: Color.fromRGBO(253, 94, 83, 1)),
+                      color: Color.fromRGBO(255, 192, 0, 1)),
                 ),
               ),
             ),

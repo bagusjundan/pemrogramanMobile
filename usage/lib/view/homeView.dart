@@ -75,7 +75,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon:
-                Icon(Icons.cake, color: Color.fromRGBO(127, 205, 145, 1)),
+                Icon(Icons.calculate, color: Color.fromRGBO(127, 205, 145, 1)),
             title: Text(
               'Calculator',
               style: TextStyle(color: Color.fromRGBO(127, 205, 145, 1)),
@@ -83,7 +83,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
           ),
           BottomNavigationBarItem(
             icon:
-                Icon(Icons.lightbulb_outline, color: Color.fromRGBO(127, 205, 145, 1)),
+                Icon(Icons.lightbulb, color: Color.fromRGBO(127, 205, 145, 1)),
             title: Text(
               'Tips',
               style: TextStyle(color: Color.fromRGBO(127, 205, 145, 1)),

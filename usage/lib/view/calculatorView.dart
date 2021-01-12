@@ -44,7 +44,7 @@ class _CalculatorState extends State<Calculator> {
           ),
           IconButton(
             icon: Icon(
-              Icons.label,
+              Icons.logout,
               color: Color.fromRGBO(127, 205, 145, 1),
             ),
             onPressed: () {
