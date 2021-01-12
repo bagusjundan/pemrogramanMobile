@@ -10,7 +10,7 @@ class Profile extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey[200],
       body: Padding(
-        padding: EdgeInsets.fromLTRB(50, 100, 50, 90),
+        padding: EdgeInsets.fromLTRB(50, 100, 50, 40),
         child: Column(
           children: [
             Container(
@@ -103,7 +103,7 @@ class Profile extends StatelessWidget {
               ),
             ),
             Container(
-              margin: const EdgeInsets.fromLTRB(0,10,0,0),
+              margin: const EdgeInsets.fromLTRB(0, 10, 0, 0),
               child: Align(
                 alignment: Alignment.bottomRight,
                 child: ButtonTheme(

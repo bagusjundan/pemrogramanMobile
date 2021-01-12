@@ -1,0 +1,4 @@
+#Mon Jan 11 10:46:10 ICT 2021
+base.0=F\:\\Gundho\\Github\\pemrogramanMobile\\usage\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

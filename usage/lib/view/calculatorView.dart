@@ -71,10 +71,6 @@ class _CalculatorState extends State<Calculator> {
                     namaInput: 'Daya        ',
                     hintText: null,
                   ),
-                  // InputHuruf(
-                  //   namaInput: 'Perangkat',
-                  //   hintText: null,
-                  // ),
                   Row(
                     children: [
                       Text(
