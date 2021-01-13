@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import './utility/shared_prefs.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Images extends StatefulWidget {
   @override
@@ -59,7 +60,10 @@ class _MyAppState extends State<Images> {
         ],
         title: Text(
           'Foto Profil',
-          style: TextStyle(color: Colors.grey[200]),
+          style: GoogleFonts.fredokaOne(
+                textStyle: TextStyle(
+            color: Colors.grey[200]),
+          )
           ),
           backgroundColor: Color.fromRGBO(127, 205, 145, 1),
       ),

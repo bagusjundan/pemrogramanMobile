@@ -2,7 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:usage/view/imageView.dart';
 import 'package:usage/_provider/app.dart';
-import 'package:usage/view/statisticsView.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Profile extends StatelessWidget {
   @override
@@ -27,10 +27,12 @@ class Profile extends StatelessWidget {
             ),
             Text(
               'PROFILE',
-              style: TextStyle(
+              style: GoogleFonts.fredokaOne(
+                textStyle: TextStyle(
                   fontSize: 27,
                   color: Color.fromRGBO(127, 205, 145, 1),
-                  fontWeight: FontWeight.bold),
+                ),
+              )
             ),
             SizedBox(
               height: 40,
@@ -40,18 +42,22 @@ class Profile extends StatelessWidget {
                 Text(
                   'USERNAME :',
                   textAlign: TextAlign.center,
-                  style: TextStyle(
+                  style: GoogleFonts.itim(
+                  textStyle: TextStyle(
                       fontSize: 15,
                       color: Color.fromRGBO(159, 162, 161, 1),
                       fontWeight: FontWeight.bold),
+                  )
                 ),
                 Text(
                   '  Pengguna1',
                   textAlign: TextAlign.center,
-                  style: TextStyle(
+                  style: GoogleFonts.allerta(
+                    textStyle: TextStyle(
                       fontSize: 15,
                       color: Color.fromRGBO(131, 127, 127, 1),
                       fontWeight: FontWeight.bold),
+                  )
                 ),
               ],
             ),
@@ -63,18 +69,22 @@ class Profile extends StatelessWidget {
                 Text(
                   'PASSWORD :',
                   textAlign: TextAlign.center,
-                  style: TextStyle(
+                  style: GoogleFonts.itim(
+                  textStyle: TextStyle(
                       fontSize: 15,
                       color: Color.fromRGBO(159, 162, 161, 1),
                       fontWeight: FontWeight.bold),
+                  )
                 ),
                 Text(
                   '  123',
                   textAlign: TextAlign.center,
-                  style: TextStyle(
+                  style: GoogleFonts.allerta(
+                    textStyle: TextStyle(
                       fontSize: 15,
                       color: Color.fromRGBO(131, 127, 127, 1),
                       fontWeight: FontWeight.bold),
+                  )
                 ),
               ],
             ),
@@ -90,7 +100,10 @@ class Profile extends StatelessWidget {
                   child: FlatButton(
                       child: Text(
                         'LIHAT FOTO',
-                        style: TextStyle(fontSize: 18, color: Colors.grey[200]),
+                        style: GoogleFonts.itim(
+                        textStyle: TextStyle(
+                          fontSize: 18, color: Colors.grey[200]),
+                        )
                       ),
                       onPressed: () {
                         Navigator.pushReplacement(context,
@@ -112,7 +125,10 @@ class Profile extends StatelessWidget {
                   child: FlatButton(
                       child: Text(
                         'RIWAYAT',
-                        style: TextStyle(fontSize: 18, color: Colors.grey[200]),
+                        style: GoogleFonts.itim(
+                        textStyle: TextStyle(
+                          fontSize: 18, color: Colors.grey[200]),
+                        )
                       ),
                       onPressed: () {
                         Navigator.pushReplacement(context,

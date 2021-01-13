@@ -4,6 +4,7 @@ import 'package:usage/view/startView.dart';
 import '../widgets/cardList.dart';
 import '../widgets/formInput.dart';
 import '../widgets/tampilanTotal.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Calculator extends StatefulWidget {
   @override
@@ -26,7 +27,10 @@ class _CalculatorState extends State<Calculator> {
       appBar: AppBar(
         title: Text(
           'Calculator',
-          style: TextStyle(color: Color.fromRGBO(127, 205, 145, 1)),
+          style: GoogleFonts.fredokaOne(
+              textStyle: TextStyle(
+            color: Color.fromRGBO(127, 205, 145, 1)),
+          )
         ),
         backgroundColor: Colors.grey[200],
         actions: <Widget>[
@@ -135,9 +139,11 @@ class _CalculatorState extends State<Calculator> {
                             },
                             color: Colors.white,
                             child: Text(
-                              'Tambah',
-                              style: TextStyle(
+                              'TAMBAH',
+                              style: GoogleFonts.itim(
+                                textStyle: TextStyle(
                                   color: Color.fromRGBO(131, 127, 127, 1)),
+                              )
                             ),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30.0)),

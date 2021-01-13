@@ -2,6 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:usage/view/signUpView.dart';
 import 'package:usage/view/loginView.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Start extends StatelessWidget {
   @override
@@ -26,18 +27,22 @@ class Start extends StatelessWidget {
             ),
             Text(
               'usage',
-              style: TextStyle(
+              style: GoogleFonts.fredokaOne(
+              textStyle: TextStyle(
                   fontSize: 45,
                   color: Color.fromRGBO(127, 205, 145, 1),
-                  fontWeight: FontWeight.bold),
+                ),
+              )
             ),
             Text(
               'your energy counter',
-              style: TextStyle(
+              style: GoogleFonts.itim(
+              textStyle: TextStyle(
                 fontSize: 18,
                 color: Color.fromRGBO(127, 205, 145, 1),
                 fontStyle: FontStyle.italic,
               ),
+              )
             ),
             SizedBox(
               height: 100,
@@ -51,9 +56,11 @@ class Start extends StatelessWidget {
                   child: FlatButton(
                     child: Text(
                       'LOGIN',
-                      style: TextStyle(
-                          fontSize: 18,
+                      style: GoogleFonts.itim(
+                      textStyle: TextStyle(
+                          fontSize: 22,
                           color: Color.fromRGBO(127, 205, 145, 1)),
+                      )
                     ),
                     onPressed: () {
                       Navigator.pushReplacement(context,
@@ -82,7 +89,10 @@ class Start extends StatelessWidget {
                   child: FlatButton(
                     child: Text(
                       'SIGN UP',
-                      style: TextStyle(fontSize: 18, color: Colors.grey[200]),
+                      style: GoogleFonts.itim(
+                      textStyle: TextStyle(
+                        fontSize: 22, color: Colors.grey[200]),
+                      )
                     ),
                     onPressed: () {
                       Navigator.pushReplacement(context,

@@ -2,6 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:usage/view/homeView.dart';
 import 'package:usage/view/signUpView.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Login extends StatefulWidget {
   @override
@@ -40,12 +41,14 @@ class _LoginState extends State<Login> {
                 child: Text(
                   'USERNAME',
                   textAlign: TextAlign.left,
-                  style: TextStyle(
+                  style: GoogleFonts.itim(
+                  textStyle: TextStyle(
                       fontSize: 15,
                       letterSpacing: 2,
                       fontWeight: FontWeight.bold,
                       color: Color.fromRGBO(127, 205, 145, 1)),
                 ),
+                )
               ),
             ),
             Expanded(
@@ -64,13 +67,16 @@ class _LoginState extends State<Login> {
                           BorderSide(color: Color.fromRGBO(127, 205, 145, 1)),
                     ),
                     hintStyle: TextStyle(
-                        fontSize: 17.0,
-                        color: Color.fromRGBO(131, 127, 127, 1)),
-                    hintText: 'Username',
+                        fontSize: 16.0,
+                        color: Color.fromRGBO(205, 200, 200, 1)
+                        
+                    ),
+                    hintText: 'tulis username-mu',
                     isDense: true,
                     labelText: null),
                 keyboardType: TextInputType.text,
               ),
+              
             ),
             SizedBox(
               height: 20,
@@ -81,12 +87,14 @@ class _LoginState extends State<Login> {
                 child: Text(
                   'PASSWORD',
                   textAlign: TextAlign.left,
-                  style: TextStyle(
+                  style: GoogleFonts.itim(
+                  textStyle: TextStyle(
                       fontSize: 15,
                       letterSpacing: 2,
                       fontWeight: FontWeight.bold,
                       color: Color.fromRGBO(127, 205, 145, 1)),
                 ),
+                )
               ),
             ),
             Expanded(
@@ -105,9 +113,9 @@ class _LoginState extends State<Login> {
                           BorderSide(color: Color.fromRGBO(127, 205, 145, 1)),
                     ),
                     hintStyle: TextStyle(
-                        fontSize: 17.0,
-                        color: Color.fromRGBO(131, 127, 127, 1)),
-                    hintText: 'Password',
+                        fontSize: 16.0,
+                        color: Color.fromRGBO(205, 200, 200, 1)),
+                    hintText: 'tulis password-mu',
                     isDense: true,
                     labelText: null),
                 obscureText: true,
@@ -126,9 +134,11 @@ class _LoginState extends State<Login> {
                   child: FlatButton(
                     child: Text(
                       'LOGIN',
-                      style: TextStyle(
-                          fontSize: 18,
+                      style: GoogleFonts.itim(
+                      textStyle: TextStyle(
+                          fontSize: 22,
                           color: Color.fromRGBO(127, 205, 145, 1)),
+                      )
                     ),
                     onPressed: () {
                       if (inputUsename == username &&
@@ -157,17 +167,20 @@ class _LoginState extends State<Login> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text('Dont have an account? ',
-                    style: TextStyle(
-                        fontSize: 17, color: Color.fromRGBO(131, 127, 127, 1))),
+                    style: GoogleFonts.allerta(
+                      textStyle: TextStyle(
+                        fontSize: 15, color: Color.fromRGBO(131, 127, 127, 1)))),
                 GestureDetector(
                   onTap: () {
                     Navigator.pushReplacement(context,
                         MaterialPageRoute(builder: (context) => SignUp()));
                   },
                   child: Text("Sign Up",
-                      style: TextStyle(
-                          fontSize: 17,
+                      style: GoogleFonts.allerta(
+                      textStyle: TextStyle(
+                          fontSize: 15,
                           color: Color.fromRGBO(127, 205, 145, 1))),
+                  )
                 ),
               ],
             )

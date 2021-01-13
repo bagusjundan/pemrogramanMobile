@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:usage/view/profileView.dart';
 import 'package:usage/view/startView.dart';
 import '_state.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class App extends StatelessWidget {
   @override
@@ -15,7 +16,7 @@ class App extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: Page(title: 'Riwayat Aktivitas'),
+        home: Page(),
       ),
     );
   }
@@ -34,8 +35,11 @@ class Page extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Riwayat Aktivitas',
-          style: TextStyle(color: Colors.grey[200]),
+          'Tinggalkan Jejak',
+          style: GoogleFonts.fredokaOne(
+                  textStyle: TextStyle(
+            color: Colors.grey[200]),
+          )
         ),
         backgroundColor: Color.fromRGBO(127, 205, 145, 1),
         actions: <Widget>[
@@ -53,7 +57,7 @@ class Page extends StatelessWidget {
           ),
           IconButton(
             icon: Icon(
-              Icons.label,
+              Icons.logout,
               color: Colors.grey[200],
             ),
             onPressed: () {

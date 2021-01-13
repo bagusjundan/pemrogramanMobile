@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class TotalBox extends StatelessWidget {
   final String totalPerangkat;
@@ -23,21 +24,25 @@ class TotalBox extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                '''Total
-                Perangkat''',
+                '''TOTAL
+                PERANGKAT''',
                 textAlign: TextAlign.center,
-                style: TextStyle(
-                    fontSize: 14.0,
+                style: GoogleFonts.itim(
+                  textStyle: TextStyle(
+                    fontSize: 13.0,
                     height: 0.5,
                     color: Color.fromRGBO(127, 205, 145, 1)),
+                )
               ),
               Text(
                 totalPerangkat,
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: GoogleFonts.allerta(
+                  textStyle: TextStyle(
                     fontSize: 25.0,
                     height: 2,
                     color: Color.fromRGBO(131, 127, 127, 1)),
+                )
               ),
             ],
           ),
@@ -56,21 +61,25 @@ class TotalBox extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                '''Total
-                Tegangan''',
+                '''TOTAL
+                TEGANGAN''',
                 textAlign: TextAlign.center,
-                style: TextStyle(
-                    fontSize: 14.0,
+                style: GoogleFonts.itim(
+                  textStyle: TextStyle(
+                    fontSize: 13.0,
                     height: 0.5,
                     color: Color.fromRGBO(127, 205, 145, 1)),
+                )
               ),
               Text(
                 totalTegangan + ' W',
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: GoogleFonts.allerta(
+                  textStyle: TextStyle(
                     fontSize: 25.0,
                     height: 2,
                     color: Color.fromRGBO(131, 127, 127, 1)),
+                )
               ),
             ],
           ),
@@ -89,21 +98,25 @@ class TotalBox extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                '''Total
-                Penggunaan''',
+                '''TOTAL
+                PENGGUNAAN''',
                 textAlign: TextAlign.center,
-                style: TextStyle(
-                    fontSize: 14.0,
+                style: GoogleFonts.itim(
+                  textStyle: TextStyle(
+                    fontSize: 13.0,
                     height: 0.5,
                     color: Color.fromRGBO(127, 205, 145, 1)),
+                )
               ),
               Text(
                 totalPenggunaan + ' Jam',
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: GoogleFonts.allerta(
+                  textStyle: TextStyle(
                     fontSize: 25.0,
                     height: 2,
                     color: Color.fromRGBO(131, 127, 127, 1)),
+                )
               ),
             ],
           ),

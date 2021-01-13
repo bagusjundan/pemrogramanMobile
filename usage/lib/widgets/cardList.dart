@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class CardList extends StatelessWidget {
   final String namaPerangkat;
@@ -14,15 +15,21 @@ class CardList extends StatelessWidget {
         children: [
           Text(
             'Nama Perangkat: ' + namaPerangkat,
-            style: TextStyle(color: Color.fromRGBO(131, 127, 127, 1)),
+            style: GoogleFonts.allerta(
+            textStyle: TextStyle(
+              color: Color.fromRGBO(131, 127, 127, 1)),)
           ),
           Text(
             'Tegangan: ' + tegangan + ' Watt',
-            style: TextStyle(color: Color.fromRGBO(131, 127, 127, 1)),
+            style: GoogleFonts.allerta(
+            textStyle: TextStyle(
+              color: Color.fromRGBO(131, 127, 127, 1)),)
           ),
           Text(
             'Lama Penggunaan: ' + lamaPenggunaan + ' Jam',
-            style: TextStyle(color: Color.fromRGBO(131, 127, 127, 1)),
+            style: GoogleFonts.allerta(
+            textStyle: TextStyle(
+              color: Color.fromRGBO(131, 127, 127, 1)),)
           ),
           Divider(
             height: 5,
@@ -33,10 +40,12 @@ class CardList extends StatelessWidget {
           FlatButton.icon(
             onPressed: () {},
             label: Text(
-              'Hapus',
-              style: TextStyle(color: Color.fromRGBO(131, 127, 127, 1)),
+              'HAPUS',
+              style: GoogleFonts.allerta(
+              textStyle: TextStyle(
+                color: Color.fromRGBO(255, 130, 130, 1)),)
             ),
-            icon: Icon(Icons.delete, color: Color.fromRGBO(131, 127, 127, 1)),
+            icon: Icon(Icons.delete, color: Color.fromRGBO(255, 130, 130, 1)),
           ),
         ],
       ),

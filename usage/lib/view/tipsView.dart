@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:usage/view/profileView.dart';
 import 'package:usage/view/startView.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Tips extends StatelessWidget {
   @override
@@ -9,7 +10,10 @@ class Tips extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'Tips',
-          style: TextStyle(color: Colors.grey[200]),
+          style: GoogleFonts.fredokaOne(
+              textStyle: TextStyle(
+            color: Colors.grey[200]),
+          )
         ),
         backgroundColor: Color.fromRGBO(127, 205, 145, 1),
         actions: <Widget>[
@@ -65,39 +69,53 @@ class Tips extends StatelessWidget {
                           ),
                           Container(
                             width: 210.0,
-                            height: 170.0,
+                            height: 200.0,
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
                                   'Air Conditioner',
-                                  style: TextStyle(
-                                      fontSize: 20,
+                                  style: GoogleFonts.itim(
+                                  textStyle: TextStyle(
+                                      fontSize: 18,
                                       color: Color.fromRGBO(131, 127, 127, 1),
                                       fontWeight: FontWeight.bold),
+                                  )
                                 ),
                                 SizedBox(
                                   height: 10,
                                 ),
                                 Text(
                                   '- Tutup jendela dan pintu saat AC dinyalakan',
-                                  style: TextStyle(
+                                  style: GoogleFonts.allerta(
+                                  textStyle: TextStyle(
+                                      fontSize: 13,
                                       color: Color.fromRGBO(127, 205, 145, 1)),
+                                  )
                                 ),
                                 Text(
                                   '- Matikan AC jika ruangan tidak dipergunakan',
-                                  style: TextStyle(
+                                  style: GoogleFonts.allerta(
+                                  textStyle: TextStyle(
+                                      fontSize: 13,
                                       color: Color.fromRGBO(127, 205, 145, 1)),
+                                  )
                                 ),
                                 Text(
                                   '- Bersihkan filter dan kompresor AC secara berkala',
-                                  style: TextStyle(
+                                  style: GoogleFonts.allerta(
+                                  textStyle: TextStyle(
+                                      fontSize: 13,
                                       color: Color.fromRGBO(127, 205, 145, 1)),
+                                  )
                                 ),
                                 Text(
                                   '- Gunakan Timer dan Power Saver untuk mengatur pemakaian AC',
-                                  style: TextStyle(
+                                  style: GoogleFonts.allerta(
+                                  textStyle: TextStyle(
+                                      fontSize: 13,
                                       color: Color.fromRGBO(127, 205, 145, 1)),
+                                )
                                 ),
                               ],
                             ),
@@ -137,23 +155,31 @@ class Tips extends StatelessWidget {
                               children: [
                                 Text(
                                   'Televisi',
-                                  style: TextStyle(
-                                      fontSize: 20,
+                                  style: GoogleFonts.itim(
+                                  textStyle: TextStyle(
+                                      fontSize: 18,
                                       color: Color.fromRGBO(131, 127, 127, 1),
                                       fontWeight: FontWeight.bold),
+                                  )
                                 ),
                                 SizedBox(
                                   height: 10,
                                 ),
                                 Text(
                                   '- Pilih Model TV dengan teknologi Hemat Energi',
-                                  style: TextStyle(
+                                  style: GoogleFonts.allerta(
+                                  textStyle: TextStyle(
+                                      fontSize: 13,
                                       color: Color.fromRGBO(127, 205, 145, 1)),
+                                  )
                                 ),
                                 Text(
                                   '- Atur Penggunaan TV sesuai dengan kebutuhan',
-                                  style: TextStyle(
+                                  style: GoogleFonts.allerta(
+                                  textStyle: TextStyle(
+                                      fontSize: 13,
                                       color: Color.fromRGBO(127, 205, 145, 1)),
+                                  )
                                 ),
                               ],
                             ),
@@ -187,39 +213,49 @@ class Tips extends StatelessWidget {
                           ),
                           Container(
                             width: 210.0,
-                            height: 177.0,
+                            height: 210.0,
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
                                   'Kulkas',
-                                  style: TextStyle(
-                                      fontSize: 20,
+                                  style: GoogleFonts.itim(
+                                  textStyle: TextStyle(
+                                      fontSize: 18,
                                       color: Color.fromRGBO(131, 127, 127, 1),
                                       fontWeight: FontWeight.bold),
+                                  )
                                 ),
                                 SizedBox(
                                   height: 10,
                                 ),
                                 Text(
                                   '- Atur suhu kulkas sesuai dengan kebutuhan',
-                                  style: TextStyle(
-                                      color: Color.fromRGBO(127, 205, 145, 1)),
+                                  style: GoogleFonts.allerta(
+                                  textStyle: TextStyle(
+                                      fontSize: 13,
+                                      color: Color.fromRGBO(127, 205, 145, 1)),)
                                 ),
                                 Text(
                                   '- Isi kulkas secukupnya, jangan terlalu penuh',
-                                  style: TextStyle(
-                                      color: Color.fromRGBO(127, 205, 145, 1)),
+                                  style: GoogleFonts.allerta(
+                                  textStyle: TextStyle(
+                                      fontSize: 13,
+                                      color: Color.fromRGBO(127, 205, 145, 1)),)
                                 ),
                                 Text(
                                   '- Tidak sering membuka pintu kulkas',
-                                  style: TextStyle(
-                                      color: Color.fromRGBO(127, 205, 145, 1)),
+                                  style: GoogleFonts.allerta(
+                                  textStyle: TextStyle(
+                                      fontSize: 13,
+                                      color: Color.fromRGBO(127, 205, 145, 1)),)
                                 ),
                                 Text(
                                   '- Jangan memasukkan makanan / minuman yang masih panas',
-                                  style: TextStyle(
-                                      color: Color.fromRGBO(127, 205, 145, 1)),
+                                  style: GoogleFonts.allerta(
+                                  textStyle: TextStyle(
+                                      fontSize: 13,
+                                      color: Color.fromRGBO(127, 205, 145, 1)),)
                                 ),
                               ],
                             ),
@@ -259,33 +295,43 @@ class Tips extends StatelessWidget {
                               children: [
                                 Text(
                                   'Lampu',
-                                  style: TextStyle(
-                                      fontSize: 20,
+                                  style: GoogleFonts.itim(
+                                  textStyle: TextStyle(
+                                      fontSize: 18,
                                       color: Color.fromRGBO(131, 127, 127, 1),
                                       fontWeight: FontWeight.bold),
+                                  )
                                 ),
                                 SizedBox(
                                   height: 10,
                                 ),
                                 Text(
                                   '- Matikan lampu bila tidak digunakan',
-                                  style: TextStyle(
-                                      color: Color.fromRGBO(127, 205, 145, 1)),
+                                  style: GoogleFonts.allerta(
+                                  textStyle: TextStyle(
+                                      fontSize: 13,
+                                      color: Color.fromRGBO(127, 205, 145, 1)),)
                                 ),
                                 Text(
                                   '- Saat siang hari, kurangi pemakaian lampu',
-                                  style: TextStyle(
-                                      color: Color.fromRGBO(127, 205, 145, 1)),
+                                  style: GoogleFonts.allerta(
+                                  textStyle: TextStyle(
+                                      fontSize: 13,
+                                      color: Color.fromRGBO(127, 205, 145, 1)),)
                                 ),
                                 Text(
                                   '- Gunakan banyak titik lampu,dengan daya rendah',
-                                  style: TextStyle(
-                                      color: Color.fromRGBO(127, 205, 145, 1)),
+                                  style: GoogleFonts.allerta(
+                                  textStyle: TextStyle(
+                                      fontSize: 13,
+                                      color: Color.fromRGBO(127, 205, 145, 1)),)
                                 ),
                                 Text(
                                   '- Gunakan lampu Hemat Energi',
-                                  style: TextStyle(
-                                      color: Color.fromRGBO(127, 205, 145, 1)),
+                                  style: GoogleFonts.allerta(
+                                  textStyle: TextStyle(
+                                      fontSize: 13,
+                                      color: Color.fromRGBO(127, 205, 145, 1)),)
                                 ),
                               ],
                             ),

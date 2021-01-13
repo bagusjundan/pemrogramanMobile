@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Stat_bln extends StatelessWidget {
   final String bulan;
@@ -24,10 +25,12 @@ class Stat_bln extends StatelessWidget {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "Rangkuman Hasil",
-                    style: TextStyle(
+                    style: GoogleFonts.itim(
+                    textStyle: TextStyle(
                         color: Color.fromRGBO(131, 127, 127, 1),
                         fontSize: 20,
                         fontWeight: FontWeight.bold),
+                    )
                   ),
                 ),
                 SizedBox(
@@ -38,12 +41,15 @@ class Stat_bln extends StatelessWidget {
                   child: RichText(
                     text: TextSpan(
                       text: "Bulan                       : ",
-                      style: TextStyle(color: Color.fromRGBO(131, 127, 127, 1)),
+                      style: GoogleFonts.allerta(
+                      textStyle: TextStyle(
+                        color: Color.fromRGBO(131, 127, 127, 1))),
                       children: <TextSpan>[
                         TextSpan(
                             text: bulan,
-                            style: TextStyle(
-                                color: Color.fromRGBO(127, 205, 145, 1))),
+                            style: GoogleFonts.allerta(
+                      textStyle: TextStyle(
+                                color: Color.fromRGBO(127, 205, 145, 1)))),
                       ],
                     ),
                   ),
@@ -56,12 +62,15 @@ class Stat_bln extends StatelessWidget {
                   child: RichText(
                     text: TextSpan(
                       text: "Konsumsi Energi   : ",
-                      style: TextStyle(color: Color.fromRGBO(131, 127, 127, 1)),
+                      style: GoogleFonts.allerta(
+                      textStyle: TextStyle(
+                        color: Color.fromRGBO(131, 127, 127, 1))),
                       children: <TextSpan>[
                         TextSpan(
                             text: tegangan + ' Kwh',
-                            style: TextStyle(
-                                color: Color.fromRGBO(127, 205, 145, 1))),
+                            style: GoogleFonts.allerta(
+                      textStyle: TextStyle(
+                                color: Color.fromRGBO(127, 205, 145, 1)))),
                       ],
                     ),
                   ),
@@ -74,12 +83,15 @@ class Stat_bln extends StatelessWidget {
                   child: RichText(
                     text: TextSpan(
                       text: "Perkiraan Tagihan : ",
-                      style: TextStyle(color: Color.fromRGBO(131, 127, 127, 1)),
+                      style: GoogleFonts.allerta(
+                      textStyle: TextStyle(
+                        color: Color.fromRGBO(131, 127, 127, 1))),
                       children: <TextSpan>[
                         TextSpan(
                             text: 'Rp' + tagihan,
-                            style: TextStyle(
-                                color: Color.fromRGBO(127, 205, 145, 1))),
+                            style: GoogleFonts.allerta(
+                      textStyle: TextStyle(
+                                color: Color.fromRGBO(127, 205, 145, 1)))),
                       ],
                     ),
                   ),

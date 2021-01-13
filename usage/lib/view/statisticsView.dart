@@ -6,6 +6,7 @@ import 'package:fcharts/fcharts.dart';
 import 'package:usage/view/profileView.dart';
 import 'package:usage/view/startView.dart';
 import '../widgets/Statistik_bulanan_card.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Statistics extends StatefulWidget {
   @override
@@ -45,7 +46,10 @@ class _StatisticsState extends State {
       appBar: AppBar(
         title: Text(
           'Statistik',
-          style: TextStyle(color: Colors.grey[200]),
+          style: GoogleFonts.fredokaOne(
+              textStyle: TextStyle(
+            color: Colors.grey[200]),
+          )
         ),
         backgroundColor: Color.fromRGBO(127, 205, 145, 1),
         actions: <Widget>[
@@ -80,10 +84,12 @@ class _StatisticsState extends State {
             padding: EdgeInsets.fromLTRB(20, 20, 20, 10),
             child: Text(
               'Lama Penggunaan Satu Bulan',
-              style: TextStyle(
+              style: GoogleFonts.itim(
+              textStyle: TextStyle(
                   color: Color.fromRGBO(131, 127, 127, 1),
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
+              )
             ),
           ),
           Expanded(
