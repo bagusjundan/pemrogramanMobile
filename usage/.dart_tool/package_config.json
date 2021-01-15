@@ -135,7 +135,7 @@
     },
     {
       "name": "image_picker",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+17",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+21",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
@@ -213,7 +213,7 @@
     },
     {
       "name": "pedantic",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.0",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.2",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
@@ -237,7 +237,7 @@
     },
     {
       "name": "provider",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.3.2+3",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.3.2+4",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     },
@@ -339,7 +339,7 @@
     },
     {
       "name": "xdg_directories",
-      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.0",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.3"
     },
@@ -350,7 +350,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-01-13T02:43:27.854330Z",
+  "generated": "2021-01-14T04:24:16.253767Z",
   "generator": "pub",
   "generatorVersion": "2.10.4"
 }

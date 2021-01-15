@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:usage/view/calculatorView.dart';
-import 'package:usage/view/profileView.dart';
 import 'package:usage/view/statisticsView.dart';
-// import 'package:usage/view/startView.dart';
-//import 'package:usage/view/statisticsView.dart';
 import 'package:usage/view/tipsView.dart';
 
 class BottomNavBar extends StatefulWidget {

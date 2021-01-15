@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Febria\\Documents\\GitHub\\pemrogramanMobile\\usage\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Febria\\Documents\\usage\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Febria\\Documents\\GitHub\\pemrogramanMobile\\usage\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\Febria\\Documents\\usage\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

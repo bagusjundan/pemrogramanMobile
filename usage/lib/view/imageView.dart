@@ -88,7 +88,7 @@ class _MyAppState extends State<Images> {
                         title: new Text('Camera'),
                         onTap: () {
                           pickImage(ImageSource.camera);
-                          // this is how you dismiss the modal bottom sheet after making a choice
+
                           Navigator.pop(context);
                         },
                       ),
@@ -97,7 +97,7 @@ class _MyAppState extends State<Images> {
                         title: new Text('Gallery'),
                         onTap: () {
                           pickImage(ImageSource.gallery);
-                          // dismiss the modal sheet
+
                           Navigator.pop(context);
                         },
                       ),
